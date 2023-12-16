@@ -33,25 +33,41 @@ in a clear and engaging manner.
 
 #### 1. Environment Setup
 
-Create and activate a project virtual environment.
-Install all required packages into your local project virtual environment.
-After installing the required dependencies, generate a requirements.txt file.
+1. Create and activate a project virtual environment.
+1. Install all required packages into your local project virtual environment.
+1. After installing the required dependencies, generate a requirements.txt file.
+1. Document the process and commands you used in your README.md.
+1. Add a .gitignore file to your project with useful entries.
+
+#### 2. Project Start
+
+Make sure Jupyter is installed and working in your project virtual environment.
 Document the process and commands you used in your README.md.
-Add a .gitignore file to your project with useful entries.
 
-#### 2. Set Up Jupyter Notebook
+Then create, open, and start a new notebook:
 
-Create the required notebook.
-Document the process of working with Jupyter, selecting your kernel,
-and starting a new Notebook on your machine in your README.md.
+1. Create the Notebook: In the VS Code Explorer, create a new file e.g., yourname_eda.ipynb. Ensure it has a .ipynb extension.
+2. Open the Notebook: Double-click the notebook file to open it in the notebook editor.
+3. Add a Markdown cell at the top of your notebook with a title, author, date and the purpose of the project.
 
-#### 3. Notebook Opening
+#### 3. Import Dependencies
 
-Start your notebook with a Markdown cell containing the title,
-author, date, and purpose.
-Follow with a Python cell for import statements, organizing them conventionally.
+Add a Python cell next with the import statements for the libraries you will use in the project.
+Organize your project imports following conventions.
 
-#### 4. Gather Data
+#### 5. Add Logging
+
+Logging is recommended for all script and notebook projects.
+Implement logging to enhance debugging and maintain a record of program execution.
+
+1. Configure logging to write to a file named log.txt.
+1. Log the start of the program using logging.info().
+1. Log the end of the program using logging.info().
+1. Log exceptions using logging.exception().
+1. Log other major events using logging.info().
+1. Log the start and end of major functions using logging.debug().
+
+#### 6.  Data Acquisition
 
 Choose a dataset for analysis.
 Due to issues with unreliable data sources,
@@ -74,7 +90,7 @@ df = sns.load_dataset('iris')
 print(df.head())
 ```
 
-#### 5. Basic Data Exploration
+#### 7. Basic Data Exploration
 
 First, use pandas to perform the basic data exploration tasks as the initial steps of
 any data analysis project:
@@ -106,7 +122,7 @@ df.hist(figsize=(10, 8))
 plt.show()
 ```
 
-#### 6. Data Transformation
+#### 8. Data Transformation
 
 Use pandas and other tools to perform transformations as needed.
 Transformation may include renaming columns, adding new columns,
@@ -121,7 +137,7 @@ df.rename(columns={'sepal_length': 'Sepal Length'}, inplace=True)
 df['Sepal Area'] = df['Sepal Length'] * df['sepal_width']
 ```
 
-#### 7. Data Visualization
+#### 9. Data Visualization
 
 Create a variety of chart types using seaborn and matplotlib to showcase different aspects of the data.
 For example:
@@ -131,7 +147,7 @@ sns.pairplot(df, hue='species')
 plt.show()
 ```
 
-#### 8. Storytelling and Presentation
+#### 10. Storytelling and Presentation
 
 Interpret the visualizations and statistics to craft a narrative around your findings.
 Present your findings in a logical and engaging manner.

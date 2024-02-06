@@ -17,7 +17,9 @@ GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.
 This project will likely use at least the following external modules, so a virtual environment is recmmmended.
 You may adjust packages used as needed.
 
+- jupyterlab
 - pandas
+- pyarrow
 - matplotlib
 - seaborn
 

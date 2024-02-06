@@ -14,7 +14,7 @@ GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.
 
 ## External Dependencies
 
-This project will likely use at least the following external modules, so a virtual environment is recmmmended.
+This project will likely use at least the following external modules, so a virtual environment is recommmended.
 You may adjust packages used as needed.
 
 - jupyterlab

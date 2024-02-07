@@ -9,8 +9,12 @@
 # Compiled Python files
 __pycache__/
 
-# Python Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
 # macOS system files
 .DS_Store
+
+# Editor backup files
+*~
+
+# Python Jupyter Notebook checkpoints and runtime files
+.ipynb_checkpoints/
+*.ipynb_meta/

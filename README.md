@@ -37,7 +37,7 @@ This project requires at least the following external modules, so a local projec
 
 ## Objective
 
-Perform and publish a custom EDA project to demnostrate skills with Jupyter, pandas, Seaborn and popular tools for data analytics.
+Perform and publish a custom EDA project to demonstrate skills with Jupyter, pandas, Seaborn and popular tools for data analytics.
 The notebook should tell a data story and visually present findings
 in a clear and engaging manner.
 
@@ -47,7 +47,7 @@ Choose a dataset for analysis.
 You will want a known, clean dataset. 
 Cleaning data can run 60-80% of the project (or more) - you don't need to
 demonstrate cleaning skills for this project.  
-The recommneded approach is to select one of the other pre-installed datasets in Seaborn.
+The recommended approach is to select one of the other pre-installed datasets in Seaborn.
 You can view a list of the Seaborn datasets in the first link below. 
 The additional links offer a range of options.
 

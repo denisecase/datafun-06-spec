@@ -1,5 +1,0 @@
-jupyterlab
-pandas
-pyarrow
-matplotlib
-seaborn
